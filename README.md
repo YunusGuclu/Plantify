@@ -78,16 +78,16 @@ Sistemde dört temel tablo bulunmaktadır:
 ## 5. Projeyi Çalıştırma
 
 **Backend – Django geliştirme sunucusu başlatma:**
-```bash
+
 python manage.py runserver
 
 **Celery worker başlatma:**
-```bash
+
 celery -A PlantAI worker --loglevel=info --pool=solo
 
 **Frontend – Vue.js geliştirme ortamını başlatma:**
 
-```bash
+
 cd frontend
 npm install
 npm run dev
