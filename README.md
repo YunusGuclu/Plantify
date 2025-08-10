@@ -78,3 +78,36 @@ Sistemde dört temel tablo bulunmaktadır:
 **Backend – Django geliştirme sunucusu başlatma:**
 ```bash
 python manage.py runserver
+
+**Celery worker başlatma:**
+```bash
+celery -A PlantAI worker --loglevel=info --pool=solo
+
+**Frontend – Vue.js geliştirme ortamını başlatma:**
+
+```bash
+cd frontend
+npm install
+npm run dev
+
+**Notlar:**
+Projeyi çalıştırmadan önce, sanal ortamınızda gerekli Python kütüphanelerinin yüklenmiş olması gerekir.
+
+Celery’nin çalışması için RabbitMQ’nun kurulu ve aktif olması şarttır. RabbitMQ kurulumu tamamlanmadan Celery worker başlatılamaz.
+
+
+## 6. Çalışma Mantığı
+1. Kullanıcı bitki fotoğrafını yükler.  
+2. Fotoğraf, Celery aracılığıyla arka planda işlenir.  
+3. AI modeli, görseldeki hastalığı tahmin eder.  
+4. Tahmin edilen hastalığa göre **Pesticide** tablosundan uygun ilaçlar getirilir.  
+5. Kullanıcı, önerilen ilaçları sepete ekleyip satın alabilir.  
+
+Bu süreçte sistem hem otomatik teşhis hem de doğrudan tedavi önerisi sunarak kullanıcı deneyimini hızlandırır.
+
+---
+
+## 7. Projenin Amacı
+Bu proje, tarım sektöründe yapay zeka tabanlı hastalık tespitini ticari bir sistemle entegre ederek, çiftçilere ve bitki yetiştiricilerine hızlı, güvenilir ve doğru tedavi önerileri sunmayı hedeflemektedir.  
+Aynı zamanda, küçük ve orta ölçekli üreticilerin teknik bilgiye ihtiyaç duymadan bitki hastalıklarını teşhis edebilmesine ve gerekli ilacı doğrudan temin edebilmesine olanak sağlar.
+
