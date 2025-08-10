@@ -74,6 +74,7 @@ Sistemde dört temel tablo bulunmaktadır:
 
 ---
 
+
 ## 5. Projeyi Çalıştırma
 
 **Backend – Django geliştirme sunucusu başlatma:**
