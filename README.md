@@ -16,7 +16,7 @@ Bu yapı sayesinde, yüksek boyutlu görsellerin işlenmesi veya model tahmin s�
 </p>
 
 <p align="center">
-  <img src="PlantAI/media/gif/Home.gif" width="800"><br>
+  <img src="PlantAI/PlantAI/media/gif/Home.gif" width="800"><br>
   <b>Ana Sayfa</b>
 </p>
 
