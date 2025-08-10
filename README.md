@@ -9,19 +9,17 @@ Bu yapı sayesinde, yüksek boyutlu görsellerin işlenmesi veya model tahmin s�
 
 ---
 ## Demo
-
-<p align="center">
-  <img src="PlantAI/media/gif/Analiz.gif" width="800"><br>
-  <b>Analiz Sayfası</b>
-</p>
-
 <p align="center">
   <img src="PlantAI/PlantAI/media/gif/Home.gif" width="800"><br>
   <b>Ana Sayfa</b>
 </p>
+<p align="center">
+  <img src="PlantAI/PlantAI/media/gif/Analiz.gif" width="800"><br>
+  <b>Analiz Sayfası</b>
+</p>
 
 <p align="center">
-  <img src="PlantAI/media/gif/Urunler.gif" width="800"><br>
+  <img src="PlantAI/PlantAI/media/gif/Urunler.gif" width="800"><br>
   <b>Ürünler Sayfası</b>
 </p>
 ## 2. Mimari Yapı
