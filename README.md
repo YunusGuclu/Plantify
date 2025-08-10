@@ -22,6 +22,7 @@ Bu yapı sayesinde, yüksek boyutlu görsellerin işlenmesi veya model tahmin s�
   <img src="PlantAI/PlantAI/media/gif/Urunler.gif" width="800"><br>
   <b>Ürünler Sayfası</b>
 </p>
+
 ## 2. Mimari Yapı
 Proje üç ana bileşenden oluşmaktadır:
 
