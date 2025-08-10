@@ -77,6 +77,9 @@ Sistemde dört temel tablo bulunmaktadır:
 
 ## 5. Projeyi Çalıştırma
 
+Host
+http://127.0.0.1:8000/
+
 **Backend – Django geliştirme sunucusu başlatma:**
 
 python manage.py runserver
