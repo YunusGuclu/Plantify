@@ -1,0 +1,27 @@
+/* src/assets/css/variables.css */
+:root {
+  --primary:   #2b580c;
+  --light:     #5a8f1e;
+  --bg:        #f0fff4;
+  --dark:      #254117;
+  --accent:    #fffae6;
+  --radius:    10px;
+  --pad:       1rem;
+  --gap:       1.5rem;
+}
+
+/* Opsiyonel: reset veya base stiller */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--dark);
+  font-family: 'Poppins', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
